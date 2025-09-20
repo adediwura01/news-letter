@@ -4,7 +4,7 @@ import Success from "./Success";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/news-letter">
       <Routes>
         <Route path="/" element={<NewsLetter />} />
         <Route path="/success" element={<Success />} />
